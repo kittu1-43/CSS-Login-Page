@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url(bag.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .box{
+            border: 1px solid gray;
+            margin-top: -80px;
+            margin-left: 420px;
+            margin-right: 420px;
+            padding-left: 35px;
+            font-size: 24px;
+            margin-bottom: 30px;
+            color: gold;
+            
+            
+            }
+        #title{
+            font-size: 40px;
+            color: aqua;
+            text-align: center;
+        }
+        .man{
+           margin-top:70px;
+           padding-left: 380px;
+
+        }
+        #btn{
+            margin-bottom:120px;
+            width: 429px;
+            height: 36px;
+            border-radius: 16px;
+            border: 2px solid transparent;
+            background-color:lightsalmon ;
+            font-size:22px ;
+            padding-top: 4px;
+            padding-bottom: 30px;
+            color: white;
+            
+        }
+        #btn:hover{
+            background-color:coral ;
+            cursor: pointer;
+        }
+        .text{
+            width: 420px;
+            height:36px ;
+            border-radius: 16px;
+            padding-left: 8px;
+            font-size: 17px;
+            border: 2px solid gray;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="transparent">
+        <div class="man"><img src="man.png" alt="logo" width="100px"  boder="0">
+        </div>
+        <div class="transparent"></div>
+        <div class="box">
+            <p id="title"><b> CSS Login Page</b></p>
+           <p><img src="email.png" alt="email logo" width="20px">
+            Email:</p>
+            <input type="text" placeholder="Enter your email adress" class="text">
+            <br>
+            <p><img src="lock.png" alt="logo" width="20px">
+            Password:</p>
+            <input type="text" placeholder="Enter your password" class="text"><br>
+            <br>
+            <button id="btn">Login</button>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
